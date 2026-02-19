@@ -391,13 +391,18 @@ export class Game {
     this.ctx.textAlign = 'center';
     this.ctx.fillText('You Win!', CANVAS_WIDTH / 2, 100);
 
+    // Birthday message
+    this.ctx.font = 'bold 32px Arial';
+    this.ctx.fillStyle = '#e05cb5';
+    this.ctx.fillText('Happy Birthday Edie!', CANVAS_WIDTH / 2, 145);
+
     // Treat summary
     this.ctx.font = '20px Arial';
     this.ctx.fillStyle = '#555';
     this.ctx.fillText(
       `Treats collected: ${this.treatsCollected}/4`,
       CANVAS_WIDTH / 2,
-      140
+      185
     );
   }
 }
