@@ -1,0 +1,6 @@
+.DS_Store
+.claude
+LEARNINGS.md
+yarn.lock
+dist/
+node_modules/
